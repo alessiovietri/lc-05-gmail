@@ -90,3 +90,14 @@ tr.read {
 .email-text::after {
     content: '...';
 }
+
+/* FOOTER */
+footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#app-name {
+    font-size: 2em;
+}
