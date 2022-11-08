@@ -57,3 +57,36 @@ hr {
 }
 
 /* SECTION DEL MAIN */
+#all-messages {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+tr.unread {
+    background-color: gray;
+}
+
+tr.read {
+    background-color: lightgray;
+}
+
+.star::before {
+    content: '\2605';
+}
+
+.email-text {
+    color: #cccccc;
+}
+
+.email-text::before {
+    content: ' - ';
+}
+
+.email-text::after {
+    content: '...';
+}
