@@ -5,3 +5,32 @@
     box-sizing: border-box;
 }
 
+/* REGOLE GENERALI */
+body {
+    background-image: url('https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=2000');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* HEADER PRINCIPALE */
+#main-logo {
+    width: 70px;
+    vertical-align: middle;
+}
+
+#main-title {
+    color: white;
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+/* HEADER DEL MAIN */
